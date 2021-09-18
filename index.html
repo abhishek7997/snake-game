@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Snake Game</h1>
+      <button id="info-button">i</button>
+      <div class="extra-info">
+        <span>Unlimited lives, try to score as much as possible.</span>
+        <br />
+        <span>Click on the board to pause/resume the game :)</span>
+      </div>
+    </div>
+    <div id="scores">
+      <p>Current Score:<span id="score">0</span></p>
+      <p>Highest Score:<span id="highestscore">0</span></p>
+    </div>
+    <canvas id="gameCanvas" width="300" height="300"></canvas>
+    <button id="resetbutton" type="button">Reset</button>
+    <footer>Made by M.ABHISHEK &copy;</footer>
+  </body>
+</html>
